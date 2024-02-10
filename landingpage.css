@@ -1,0 +1,61 @@
+/* landingpage.css */
+
+/* Reset default browser styles */
+body,
+html,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+p,
+blockquote,
+figure,
+fieldset,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Use a commonly available font stack */
+  line-height: 1.6; /* Improve readability */
+  background-color: #f8f8f8; /* Add a subtle background color */
+}
+
+/* Swiper Styles */
+.swiper-container {
+  width: 100%;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.swiper-slide {
+  text-align: center;
+  padding: 20px; /* Add padding to slides */
+}
+
+/* Optional: Adjust Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: #007bff; /* Set arrow background color */
+  color: #fff; /* Set arrow text color */
+  border-radius: 50%; /* Make arrows circular */
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px; /* Center arrow vertically */
+  font-size: 20px;
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
