@@ -1,0 +1,5 @@
+{
+    "liveServer.settings.enableGzipCompression": true,
+    "liveServer.settings.enableCors": true,
+    // Any other specific settings you want to override or add for this workspace
+  }
